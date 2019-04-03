@@ -1,13 +1,9 @@
 package hw2.hw2;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import hw2.hw2.gui.Windows;
+
+public class App {
+    public static void main( String[] args ){
+    	new Windows();
     }
 }
