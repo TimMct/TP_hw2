@@ -118,12 +118,6 @@ public class Simulator extends Thread{
 		}
 	}
 	
-	public void showServers() {
-		for(int i = 0; i < nrOfServers; i++) {
-			System.out.println(servers[i].getName()+servers[i].getClients());
-		}
-	}
-	
 	public void putServers() {
 		for(int i = 0; i < nrOfServers; i++) {
 			fields[i].setText(servers[i].getClients());
